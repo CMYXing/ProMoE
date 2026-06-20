@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promoe"
+version = "0.1.0"
+description = "Prototype-Driven Mixture-of-Experts for multi-tracer PET lesion segmentation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.1",
+  "numpy>=1.24",
+  "nibabel>=5.1",
+  "scipy>=1.10",
+  "pyyaml>=6.0",
+  "tqdm>=4.65",
+]
+
+[tool.setuptools.packages.find]
+include = ["promoe*"]

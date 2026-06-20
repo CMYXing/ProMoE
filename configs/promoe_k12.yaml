@@ -1,0 +1,81 @@
+seed: 0
+device: auto
+
+paths:
+  train_csv: data/train.csv
+  val_csv: null
+  output_dir: outputs/promoe_k12
+  organ_label: assets/organ_label.json
+  uptake_atlas: assets/uptake_atlas.json
+  structure_order: assets/pe2_structure_order.json
+  expert_prototypes: assets/expert_prototypes_k12.json
+  ct_checkpoint: null
+  resume: null
+
+data:
+  crop_size: [96, 96, 96]
+  pet_channels: ["pet_image", "sampling"]
+  ct_windows: ["soft_tissue", "lung", "bone"]
+  sampling_method: mixed
+  mixed_rate: 0.5
+  tracer_weights:
+    FDG: 5.0
+    PSMA: 3.0
+    FAPI: 2.0
+  num_workers: 4
+  pin_memory: true
+  augment:
+    random_flip: true
+    flip_axes: [0, 1]
+
+normalization:
+  pet:
+    FDG: {mean: 4.0, std: 4.0, clip: false}
+    PSMA: {mean: 6.0, std: 6.0, clip: false}
+    FAPI: {mean: 4.0, std: 4.0, clip: false}
+    CD70: {mean: 3.0, std: 3.0, clip: false}
+  ct:
+    soft_tissue: {mean: 40.0, std: 200.0, clip: true}
+    lung: {mean: -600.0, std: 750.0, clip: true}
+    bone: {mean: 800.0, std: 1300.0, clip: true}
+
+model:
+  pet_in_channels: 2
+  ct_in_channels: 3
+  num_classes: 2
+  ct_num_classes: 33
+  text_dim: 34
+  num_experts: 12
+  temperature: 0.1
+  physiological_gamma: 2.0
+  routing_threshold: auto
+  freeze_ct: true
+  freeze_expert_prototypes: true
+
+loss:
+  dice_weight: 0.5
+  focal_weight: 0.5
+  focal_gamma: 2.0
+  class_weights: [0.5, 0.5]
+  aux_weights:
+    entropy: 0.0
+    prototype: 0.0
+
+train:
+  epochs: 3000
+  batch_size: 16
+  lr: 0.001
+  weight_decay: 0.0001
+  save_every: 20
+  log_every: 20
+  amp: false
+  optimizer: adam
+  scheduler:
+    name: step
+    step_size: 1000
+    gamma: 0.1
+
+infer:
+  patch_size: [96, 96, 96]
+  overlap: 0.5
+  sampling_threshold: 2.5

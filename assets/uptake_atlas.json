@@ -1,0 +1,768 @@
+{
+  "head": {
+    "fat": {
+      "RATIO": 0.35,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.45,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "extraocular_muscle": {
+      "RATIO": 0.05,
+      "UPTAKE": {
+        "FDG": 4,
+        "PSMA": 4,
+        "FAPI": 4,
+        "CD70": 0
+      }
+    },
+    "lacrimal_gland": {
+      "RATIO": 0.05,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 4,
+        "FAPI": 4,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "brain": {
+    "gray_matter": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 5,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "white_matter": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 4,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "cerebrospinal_fluid": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "eye": {
+    "eye": {
+      "RATIO": 1.0,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "neck": {
+    "fat": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "salivary_gland": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 5,
+        "FAPI": 5,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "larynx": {
+    "vocal_cord": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 4,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.8,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "thyroid": {
+    "thyroid": {
+      "RATIO": 1,
+      "UPTAKE": {
+        "FDG": 1,
+        "PSMA": 1,
+        "FAPI": 1,
+        "CD70": 1
+      }
+    }
+  },
+  "chest": {
+    "fat": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "breast_tissue": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 1,
+        "PSMA": 0,
+        "FAPI": 1,
+        "CD70": 1
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "axilla": {
+    "fat": {
+      "RATIO": 0.9,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "mediastinum": {
+    "fat": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "myocardium": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 5,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "esophagus": {
+    "esophagus": {
+      "RATIO": 1,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 1,
+        "FAPI": 1,
+        "CD70": 1
+      }
+    }
+  },
+  "aorta": {
+    "aorta": {
+      "RATIO": 1,
+      "UPTAKE": {
+        "FDG": 1,
+        "PSMA": 1,
+        "FAPI": 1,
+        "CD70": 1
+      }
+    }
+  },
+  "lung": {
+    "lung_parenchyma": {
+      "RATIO": 0.8,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "inflammatory_lung_region": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "abdomen": {
+    "fat": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "liver": {
+    "liver_parenchyma": {
+      "RATIO": 1.0,
+      "UPTAKE": {
+        "FDG": 3,
+        "PSMA": 5,
+        "FAPI": 1,
+        "CD70": 1
+      }
+    }
+  },
+  "gallbladder": {
+    "gallbladder": {
+      "RATIO": 1.0,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 5,
+        "CD70": 5
+      }
+    }
+  },
+  "stomach": {
+    "gastric_wall": {
+      "RATIO": 0.7,
+      "UPTAKE": {
+        "FDG": 1,
+        "PSMA": 1,
+        "FAPI": 1,
+        "CD70": 1
+      }
+    },
+    "luminal_content": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "kidney": {
+    "renal_cortex": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 5,
+        "FAPI": 2,
+        "CD70": 5
+      }
+    },
+    "renal_medulla": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 5,
+        "FAPI": 2,
+        "CD70": 5
+      }
+    },
+    "collecting_system": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 5,
+        "PSMA": 5,
+        "FAPI": 5,
+        "CD70": 5
+      }
+    }
+  },
+  "spleen": {
+    "splenic_parenchyma": {
+      "RATIO": 1.0,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 5,
+        "FAPI": 2,
+        "CD70": 3
+      }
+    }
+  },
+  "pancreas": {
+    "pancreas": {
+      "RATIO": 1.0,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 1
+      }
+    }
+  },
+  "bowel": {
+    "bowel_wall": {
+      "RATIO": 0.8,
+      "UPTAKE": {
+        "FDG": 4,
+        "PSMA": 4,
+        "FAPI": 0,
+        "CD70": 2
+      }
+    },
+    "luminal_content": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "pelvis": {
+    "fat": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "prostate": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 2,
+        "FAPI": 2,
+        "CD70": 0
+      }
+    },
+    "uterus": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 2,
+        "PSMA": 0,
+        "FAPI": 5,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "bladder": {
+    "bladder": {
+      "RATIO": 1.0,
+      "UPTAKE": {
+        "FDG": 5,
+        "PSMA": 5,
+        "FAPI": 5,
+        "CD70": 5
+      }
+    }
+  },
+  "groin": {
+    "fat": {
+      "RATIO": 0.9,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "upper_limb": {
+    "fat": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "lower_limb": {
+    "fat": {
+      "RATIO": 0.3,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "muscle": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "other": {
+      "RATIO": 0.2,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "skull": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "cervical_spine": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "rib_cage_bone": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "lumbar_spine": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "pelvic_bone": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "upper_limb_bone": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  },
+  "lower_limb_bone": {
+    "cortical_bone": {
+      "RATIO": 0.5,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "bone_marrow": {
+      "RATIO": 0.4,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    },
+    "articular_cartilage_ligament": {
+      "RATIO": 0.1,
+      "UPTAKE": {
+        "FDG": 0,
+        "PSMA": 0,
+        "FAPI": 0,
+        "CD70": 0
+      }
+    }
+  }
+}
